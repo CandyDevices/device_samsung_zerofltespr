@@ -35,6 +35,3 @@ TARGET_KERNEL_CONFIG := lineageos_zerofltespr_defconfig
 # Properties
 PRODUCT_COPY_FILES += \
     device/samsung/zerofltespr/system.prop:system/vendor/build.prop
-
-# Radio
-BOARD_MODEM_TYPE := mdm9x35
